@@ -72,12 +72,12 @@ index_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_202
 archive_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
 
 # 注意: 是标签页（单个标签），不是标签页面（所有标签）
-tag_img:
+tag_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
 # 格式:
 #  - 标签名: 图片链接
-tag_per_img:
+tag_per_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
 
 # 注意: 是分类页（单个分类），不是分类页面（所有分类）
 category_img:  https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
@@ -88,7 +88,7 @@ category_img:  https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG
 category_per_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
 
 # 页脚的背景图片
-footer_img: false
+footer_img: true
 
 # 网站背景
 # 可以设置为颜色或图片
