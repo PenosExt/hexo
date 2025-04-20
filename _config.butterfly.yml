@@ -180,7 +180,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: 1
+  source: true
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
   - 海内存知己，天涯若比邻
