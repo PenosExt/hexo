@@ -63,7 +63,7 @@ avatar:
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img:
+default_top_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
 
 # 主页的横幅图片
 index_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
