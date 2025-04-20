@@ -167,15 +167,12 @@ index_top_img_height:
 # 首页的副标题设置
 subtitle:
   # 是否启用副标题
-  enable: false
+  enable: true
   # 是否启用打字机效果
   effect: true
   # 自定义 typed.js
   # https://github.com/mattboldt/typed.js/#customization
-  typed_option:
-  1: 海内存知己，天涯若比邻
-  2: 破解之心，人皆有之
-  3: 逆向之道，尽在其中
+  typed_option: 200
   # 来源 - 调用第三方服务 API（仅限中文）
   # 它将首先显示来源，然后显示副标题内容
   # 选择: false/1/2/3
@@ -186,11 +183,9 @@ subtitle:
   source: 1
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
-
-# 首页文章佈局
-1: 海内存知己，天涯若比邻
-2: 破解之心，人皆有之
-3: 逆向之道，尽在其中
+  - 海内存知己，天涯若比邻
+  - 破解之心，人皆有之
+  - 逆向之道，尽在其中
 index_layout: 3
 
 # 在首页显示文章简介
