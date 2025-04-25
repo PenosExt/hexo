@@ -63,29 +63,29 @@ avatar:
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+default_top_img: 
 
 # 主页的横幅图片
-index_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+index_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/bk_2b04b809103629c8eb8b12b8db6fe79f.png
 
 # 归档页的横幅图片
-archive_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+archive_img: 
 
 # 注意: 是标签页（单个标签），不是标签页面（所有标签）
-tag_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+tag_img: 
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
 # 格式:
 #  - 标签名: 图片链接
-tag_per_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+tag_per_img: 
 
 # 注意: 是分类页（单个分类），不是分类页面（所有分类）
-category_img:  https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+category_img:  
 
 # 分类页的横幅图片，可以为每个分类设置横幅图片
 # 格式:
 #  - 分类名: 图片链接
-category_per_img: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+category_per_img: 
 
 # 页脚的背景图片
 footer_img: true
@@ -93,7 +93,7 @@ footer_img: true
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/IMG_20250420_162109_1ce9d83a660a0bbf65c9e9e8ab992f72.jpg
+background: 
 
 # 封面设置
 cover:
