@@ -37,19 +37,26 @@ jobs:
           git config --global user.name 'wyxdlz54188'
           git config --global user.email 'liyuqili_1379zi@qq.com'
           
-      - name: 推送到 GitHub Pages
+      - name: 配置1
         run: |
          rm -rf .git
          git init
          ls -a
          cd .github/workflows
          rm hexo.yml hexo2.yml
-         cd ..
-         ls
+         
+      - name: 配置2
+        run: |
          cd ./source
          rm CNAME
-         cd ..
-         wget https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/hexo2sh_e0e75f17478a69182c394280e450c69d.yml
+
+      - name: 配置3
+        run: |
+         cd .github
+         mv hexo2sh hexo2sh.yml
+         
+      - name: 推送到 GitHub Pages
+        run: |
          git add .
          git commit -m "通过工作流创建"
          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/PenosExt/hexobak.git
