@@ -41,9 +41,9 @@ jobs:
         run: |
          rm -rf .git
          git init
-         cd .github/workflows
+         cd .github
          mv hexo2sh hexo2sh.yml
-         cd workflows
+         cd .. && cd .github/workflows
          rm hexo.yml hexo2.yml
          cd ..
          cd source
