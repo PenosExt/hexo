@@ -52,3 +52,14 @@ jobs:
          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/PenosExt/penosext.github.io.git
          git push origin HEAD:gh-pages -f
          
+      - name: 推送到bak和dev
+        run: |
+         hexo clean
+         git add .
+         git commit -m "通过工作流创建"
+         git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/PenosExt/hexobak.git
+         git push origin HEAD:main -f
+         git add .
+         git commit -m "通过工作流创建"
+         git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/PenosExt/hexodev.git
+         git push origin HEAD:main -f
