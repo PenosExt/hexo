@@ -49,7 +49,7 @@ jobs:
       - name: 配置2
         run: |
          cd source
-         rm CNAME && mv CNAMEdev CNAME
+         rm CNAME && mv CNAMEbak CNAME
          
       - name: 推送到 GitHub Pages
         run: |
