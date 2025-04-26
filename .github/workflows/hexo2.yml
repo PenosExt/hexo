@@ -39,7 +39,9 @@ jobs:
           
       - name: 推送到 GitHub Pages
         run: |
-         rm source/CNAME
+         cd source
+         rm CNAME
+         cd ..
          git add .
          git commit -m "通过工作流创建"
          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/PenosExt/hexobak.git
