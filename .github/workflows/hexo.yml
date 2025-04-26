@@ -55,6 +55,7 @@ jobs:
       - name: 推送到bak和dev
         run: |
          hexo clean
+         git rm --cached themes/butterfly
          git add .
          git commit -m "通过工作流创建"
          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/PenosExt/hexobak.git
