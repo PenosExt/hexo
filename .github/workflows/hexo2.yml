@@ -45,6 +45,7 @@ jobs:
          cd .github/workflows
          rm hexo.yml hexo2.yml
          cd ..
+         ls
          cd source
          rm CNAME
          cd ..
