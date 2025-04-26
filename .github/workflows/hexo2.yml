@@ -39,6 +39,8 @@ jobs:
           
       - name: 推送到 GitHub Pages
         run: |
+         rm -rf .git
+         git init
          cd source
          rm CNAME
          cd ..
