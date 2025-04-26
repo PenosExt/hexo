@@ -44,17 +44,12 @@ jobs:
          ls -a
          cd .github/workflows
          rm hexo.yml hexo2.yml
+         mv hexo2sh hexo2.yml
          
       - name: 配置2
         run: |
          cd ./source
          rm CNAME
-
-      - name: 配置3
-        run: |
-         cd .github
-         ls
-         wget https://raw.githubusercontent.com/wyxdlz54188/POSC_qexo/refs/heads/master/Qexo/25/4/hexo2sh_e0e75f17478a69182c394280e450c69d.yml
          
       - name: 推送到 GitHub Pages
         run: |
