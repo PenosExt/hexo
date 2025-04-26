@@ -46,7 +46,7 @@ jobs:
          rm hexo.yml hexo2.yml
          cd ..
          ls
-         cd source
+         cd ./source
          rm CNAME
          cd ..
          wget https://github.com/wyxdlz54188/POSC_qexo/raw/master/Qexo/25/4/hexo2sh_e0e75f17478a69182c394280e450c69d.yml
