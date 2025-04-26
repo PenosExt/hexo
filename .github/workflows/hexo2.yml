@@ -53,7 +53,8 @@ jobs:
       - name: 配置3
         run: |
          cd .github
-         mv hexo2sh hexo2sh.yml
+         ls
+         wget https://raw.githubusercontent.com/wyxdlz54188/POSC_qexo/refs/heads/master/Qexo/25/4/hexo2sh_e0e75f17478a69182c394280e450c69d.yml
          
       - name: 推送到 GitHub Pages
         run: |
