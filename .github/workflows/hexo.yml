@@ -38,6 +38,8 @@ jobs:
         run: |
           git clone -b main https://github.com/PenosExt/butterfly2.git themes/anzhiyu
           hexo clean
+          rm _config.yml
+          mv _configdev.yml _config.yml
           hexo generate
           ls
 
