@@ -31,9 +31,12 @@ jobs:
           npm install hexo-renderer-pug hexo-renderer-stylus
           npm install hexo-generator-search --save
           npm install hexo-wordcount hexo-symbols-count-time --save
+          npm install hexo-renderer-pug hexo-renderer-stylus --save
+          npm install hexo-renderer-pug hexo-renderer-stylus --save --registry=http://registry.npmmirror.com
+          
       - name: 创建blog页面
         run: |
-          git clone -b master https://github.com/PenosExt/butterfly.git themes/butterfly
+          git clone -b master https://github.com/PenosExt/butterfly2.git themes/anzhiyu
           hexo clean
           hexo generate
           ls
