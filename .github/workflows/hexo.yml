@@ -33,6 +33,7 @@ jobs:
           npm install hexo-wordcount hexo-symbols-count-time --save
           npm install hexo-renderer-pug hexo-renderer-stylus --save
           npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+          npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
 
       - name: 创建blog页面
         run: |
