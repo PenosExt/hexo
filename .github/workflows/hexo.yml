@@ -31,9 +31,10 @@ jobs:
           npm install hexo-renderer-pug hexo-renderer-stylus
           npm install hexo-generator-search --save
           npm install hexo-wordcount hexo-symbols-count-time --save
+          npm install hexo-renderer-pug hexo-renderer-stylus --save
       - name: 创建blog页面
         run: |
-          git clone -b main https://github.com/PenosExt/butterfly2.git themes/anzhiyu
+          git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu
           hexo clean
           rm _config.yml
           mv _configdev.yml _config.yml
