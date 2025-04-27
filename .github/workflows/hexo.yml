@@ -36,7 +36,7 @@ jobs:
           
       - name: 创建blog页面
         run: |
-          git clone -b master https://github.com/PenosExt/butterfly2.git themes/anzhiyu
+          git clone -b main https://github.com/PenosExt/butterfly2.git themes/anzhiyu
           hexo clean
           hexo generate
           ls
