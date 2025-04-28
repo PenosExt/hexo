@@ -522,14 +522,14 @@ footer:
       #     - title: 版权协议
       #       link: /copyright/
   footerBar:
-    enable: false
+    enable: true
     authorLink: /
     cc:
       enable: false
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
+      - link: https://github.com/penosext
+        text: github
       # - link: https://image.anheyu.com
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
