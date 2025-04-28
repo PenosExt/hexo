@@ -1052,7 +1052,7 @@ home_top:
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
-  siteText: anheyu.com
+  siteText: poscnet
   category:
     - name: 关于我们
       path: /tages/关于/
@@ -1076,7 +1076,7 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: Github
-    title: Theme-AnZhiYu
+    title: PenOSCrack
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
     link: https://github.com/org/penosext
 
