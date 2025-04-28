@@ -140,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: /img/editor.jpg
   effect: false
 
 # Disable all banner image
