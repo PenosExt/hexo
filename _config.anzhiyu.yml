@@ -23,7 +23,7 @@ menu:
 # nav相关配置
 nav:
   enable: true
-  travelling: true
+  travelling: false
   clock: true
   menu:
     - title: 网页
