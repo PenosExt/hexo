@@ -34,7 +34,10 @@ nav:
     - title: 项目
       item:
         - name: Qexo上传文章
-          link: https://qexo.penosext.net/
+          link: https://qexo.posc.net/
+          icon: https://image.anheyu.com/favicon.ico
+         - name: POSCext论坛
+          link: https://yd.wo.sd/
           icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
