@@ -163,6 +163,10 @@ cover:
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     - /img/default_cover.jpg
+    - https://tuapi.eees.cc/api.php?category=meinv
+    - https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
+    - https://img.xjh.me/random_img.php
+    -  # https://img.xjh.me/random_img.php?type=bg
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
