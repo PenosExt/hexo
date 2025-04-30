@@ -29,12 +29,12 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://penosext.github.io/
           icon: /img/favicon.ico
     - title: 项目
       item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
+        - name: Qexo上传文章
+          link: https://qexo.penosext.net/
           icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
