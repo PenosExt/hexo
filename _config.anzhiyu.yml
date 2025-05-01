@@ -165,6 +165,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
+    - https://rpic.origz.com/api.php?category=pixiv
     - https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
     - https://img.xjh.me/random_img.php
     - https://img.xjh.me/random_img.php?type=bg
