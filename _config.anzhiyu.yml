@@ -1273,9 +1273,9 @@ CDN:
 
   option:
     # main_css:
-    main: 
-    # utils:
-    # translate:
+    main: https://cdn.staticfile.org/hexo-theme-butterfly/4.9.0/js/main.min.js
+    utils: https://cdn.staticfile.org/hexo-theme-butterfly/4.9.0/js/utils.min.js
+    translate: https://cdn.staticfile.org/hexo-theme-butterfly/4.9.0/js/tw_cn.min.js
     # random_friends_post_js:
     # right_click_menu_js:
     # comment_barrage_js:
@@ -1306,8 +1306,8 @@ CDN:
     # instantpage:
     # typed:
     # pangu:
-    # fancybox_css:
-    # fancybox:
+    fancybox_css: https://cdn.staticfile.org/fancyapps-ui/5.0.19/fancybox/fancybox.min.css
+    fancybox: https://cdn.staticfile.org/fancyapps-ui/5.0.19/fancybox/fancybox.umd.min.js
     # medium_zoom:
     # snackbar_css:
     # snackbar:
